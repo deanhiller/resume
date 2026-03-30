@@ -13,7 +13,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | JavaScript | Expert | TryTami, webpieces, databus visualization, web projects |
 | Scala | Proficient | Twitter/GNIP (re-created business search in Scala, ~30 server SOA system) |
 | Ruby / Ruby on Rails | Working knowledge | GNIP (learned in one week to work on non-realtime systems) |
-| Python | Proficient | Twitter (metrics monitoring), databus (NREL), playorm-server, timecardx |
+| Python | Proficient | Twitter (metrics monitoring, FastAPI, Flask), databus (NREL), playorm-server, timecardx |
 | C / C++ | Proficient | Lucent Technologies (fault management, white box testing, test speed optimization) |
 | C# | Proficient | Avaya (.NET/ASP.NET), Extreme Software (Docutech mortgage app) |
 | SQL | Expert | PostgreSQL, MySQL across all roles |
@@ -86,7 +86,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Skill | Where Used |
 |---|---|
 | PostgreSQL | TryTami, Orderly Health, general |
-| MySQL | Various projects |
+| MySQL | GNIP (data collector and user service), various projects |
 | Oracle | Extreme Software (Voicelog -- 1TB dataset) |
 | Sybase | Earlier projects |
 | Gemfire | Extreme Software (Broadridge -- 8TB NoSQL migration, 3TB performance testing) |
@@ -96,7 +96,10 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Hadoop / HBase | GNIP (social data platform infrastructure) |
 | Kafka / Distributed Log queue | Twitter (notification delivery, microservices) |
 | Google Pub/Sub | TryTami |
-| AWS SNS/SQS | GNIP (pub/sub messaging) |
+| AWS SNS/SQS | GNIP (firehose ingestion from Twitter) |
+| Amazon S3 | GNIP (data lake -- complete tweet archive back to first tweet in 2006) |
+| Amazon RDS (PostgreSQL) | GNIP |
+| Amazon DynamoDB | GNIP |
 | Google Cloud Firestore | TryTami (real-time chat) |
 | Firebase Realtime DB | TryTami (authentication, real-time messaging) |
 | Solr | databus (full-text search) |
@@ -274,7 +277,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Skill | Where Used |
 |---|---|
 | CTO | TryTami, Orderly Health, Teekit (concurrent with Extreme Software, 2009-2010) |
-| VP of Engineering | Tray |
+| VP of Engineering | Tray (70 engineers, 7 managers, 1 director) |
 | Director of Architecture | Carrier Access |
 | Lead Architect | Avaya (supervised 20-person team, billion-dollar manufacturer) |
 | Software Engineer | Lucent Technologies (C/C++, fault management, knowledge transfer to Shanghai) |
@@ -301,8 +304,9 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Domain | Where Used |
 |---|---|
 | Training / EdTech marketplace | TryTami |
-| Social media / notifications at scale | Twitter (150K notifications/sec to 500M phones) |
-| Integration / automation platforms | Tray.io |
+| Social media / notifications at scale | Twitter (150K notifications/sec) |
+| Integration / automation platforms | Tray.com |
+| Restaurant industry | Tray.com (platform served restaurant vertical) |
 | Healthcare / provider data | Orderly Health |
 | Energy / renewable energy data | NREL DataBus |
 | Telecommunications | Avaya (2nd highest selling product, PBX/call center), Lucent Technologies, Carrier Access ($50M wireless manufacturer) |
@@ -311,6 +315,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Mortgage / lending | Extreme Software (Docutech -- ASP.NET mortgage application) |
 | Voice logging / compliance | Extreme Software (Voicelog -- Seam/JBoss/Oracle, 1TB dataset) |
 | Social data firehose / data ingestion | GNIP (consumed Twitter firehose, indexed for search) |
+| A/B testing | Twitter (experimentation, pattern validation) |
 | Tableau | Twitter (data analytics/visualization) |
 | Grafana | Orderly Health (monitoring/observability) |
 | Search infrastructure | Twitter (Business Search Lead) |

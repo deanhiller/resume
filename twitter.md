@@ -20,6 +20,9 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 - Directly contributed to making the company attractive for acquisition by Twitter
 - **Worked on the Twitter firehose** -- consuming social data and indexing it for search
 - Worked with **Cassandra, Hadoop, and HBase** (social data platform infrastructure)
+- **Amazon S3** -- complete tweet storage back to the first tweet in 2006 (data lake)
+- **Amazon SQS/SNS** -- firehose ingestion from Twitter
+- **RDS (PostgreSQL), MySQL, DynamoDB** -- various GNIP data services
 - Worked on extensive SOA system -- **~30 servers** with Kafka queuing between layers (realtime section)
 - Quickly learned **Ruby on Rails** in one week to dive into systems outside realtime
 
@@ -31,9 +34,10 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 - Became the **go-to person for questions on process and quality**
 - Helped refactor/clean-up a large portion of Twitter's root nodes
 - Led a **large email data corruption fix project**
+- Ran **A/B testing** experiments to validate changes and optimize team patterns
 
 ### Notification Delivery Team
-- Helped deliver **150,000 notifications per second to 500 million phones**
+- Helped deliver **150,000 notifications per second**
 - Infrastructure-scale distributed systems at Twitter's massive user base
 
 ### Influence Without Authority (Experiment)
@@ -69,13 +73,15 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 ---
 
 ## Technologies
-- Java, Scala, Python (metrics monitoring), Ruby on Rails
+- Java, Scala, Python (metrics monitoring, FastAPI, Flask), Ruby on Rails
 - **Kafka / Distributed Log queue** (Twitter -- ~30 servers, realtime section)
 - **Cassandra, Manhattan** (Twitter, GNIP)
 - **Hadoop / HBase** (GNIP)
-- **AWS SNS/SQS** (GNIP)
+- **AWS SNS/SQS** (GNIP -- firehose ingestion from Twitter)
+- **Amazon S3** (GNIP -- data lake, complete tweet archive back to 2006)
+- **RDS PostgreSQL, MySQL, DynamoDB** (GNIP)
 - **Tableau** (Twitter)
-- Distributed systems at massive scale (150K notifications/sec to 500M phones)
+- Distributed systems at massive scale (150K notifications/sec)
 - Search infrastructure
 - Real-time notification delivery pipelines
 - **Twitter internal cloud** (5 years on in-house infrastructure)

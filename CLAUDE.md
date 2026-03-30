@@ -8,7 +8,7 @@ This repository contains detailed work history documents that can be used to dyn
 |---|---|---|---|---|
 | TryTami (bILTup) | Co-Founder / Developer then CTO | 8/2024 - Present | [trytami.md](trytami.md) | Current |
 | Traveling Europe | Sabbatical | 3/2024 - 8/2024 | -- | -- |
-| TRAY (Tray.io) | VP of Engineering | 7/2022 - 3/2024 | [tray.md](tray.md) | -- |
+| TRAY (Tray.com) | VP of Engineering | 7/2022 - 3/2024 | [tray.md](tray.md) | -- |
 | Orderly Health | First SW Engineer -> VP of Eng -> CTO | 1/2019 - 1/2022 | [orderlyhealth.md](orderlyhealth.md) | **Company sold** |
 | Twitter (via GNIP) | Sr. Dev -> Business Search Lead -> Notifications | 2014 - 2019 | [twitter.md](twitter.md) | **GNIP sold to Twitter** |
 | U of Denver, Daniels School of Business | Adjunct Business Professor | 2018 | [twitter.md](twitter.md) | Repeat invitations |
@@ -40,13 +40,13 @@ This repository contains detailed work history documents that can be used to dyn
 B2B training marketplace SaaS platform. 4,026 commits, full-stack Angular/Node.js/Postgres, AI-powered chat (OpenAI + Claude), Stripe payments, GCP infrastructure with Terraform, Nx monorepo, custom ESLint rules, multi-tenant subdomain architecture. Dean authored 70.5% of all commits.
 
 ### [tray.md](tray.md)
-VP of Engineering at Tray.io. Led monolith-to-microservices migration and polyrepo-to-monorepo transition. Wrote the first 3 microservices and created the platform. Overhauled hiring (16% rejection rate -> much higher). Achieved 70% TDD coverage on all new microservices.
+VP of Engineering at Tray.com. Led **70 engineers (7 managers, 1 director)**. Restaurant industry platform. Led monolith-to-microservices migration and polyrepo-to-monorepo transition. Wrote the first 3 microservices and created the platform. Overhauled hiring (16% rejection rate -> much higher). Achieved 70% TDD coverage on all new microservices.
 
 ### [orderlyhealth.md](orderlyhealth.md)
 First Software Engineer -> VP of Engineering -> CTO. Joined at 0 lines of code, built core product in 6 months. Built 3 websites + API used by TransUnion on GCP. Elasticsearch cluster. Grew company 4x, scaled team from 3 to 20 in 3 months. Managed AI/ML team. Wore every hat (Product, Engineering, IT, Security, Technical Sales). **Company was sold.**
 
 ### [twitter.md](twitter.md)
-Joined GNIP (Twitter firehose, ~30 servers, Kafka, Cassandra, Hadoop/HBase, Ruby on Rails), helped catalyze growth until **GNIP was sold to Twitter**. Re-created business search in Scala with near-zero bug rate -- sent to SF to retrain core search team. Notification Delivery (150K notifications/sec to 500M phones). Rewrote 6 microservices reducing ops cost by 10x. Published 3 articles on Twitter Engineering blog. Also taught at University of Denver (2018).
+Joined GNIP (Twitter firehose, ~30 servers, Kafka, Cassandra, Hadoop/HBase, Ruby on Rails), helped catalyze growth until **GNIP was sold to Twitter**. Re-created business search in Scala with near-zero bug rate -- sent to SF to retrain core search team. Notification Delivery (150K notifications/sec). Rewrote 6 microservices reducing ops cost by 10x. Published 3 articles on Twitter Engineering blog. Also taught at University of Denver (2018).
 
 ### [extremesoftware.md](extremesoftware.md)
 Founded software consultancy with Beijing office. Consulting clients: NREL (DataBus, 100K+ events/sec on Cassandra), GHX (AWS EC2/VPC, query 80sec->0.3sec), Broadridge (8TB Gemfire NoSQL migration), Voicelog (Seam/JBoss/Oracle, 1TB), Docutech (ASP.NET mortgage app). Also CTO of Teekit concurrently (2009-2010). Created Mocklib and Verifydesign (paid DevX articles). Contributed to MyFaces, Tomcat, Hibernate. **Company sold in 2013.**
