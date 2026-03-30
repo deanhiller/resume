@@ -9,12 +9,10 @@ This repository contains detailed work history documents that can be used to dyn
 | TryTami (bILTup) | Co-Founder / Developer then CTO | 8/2024 - Present | [trytami.md](trytami.md) | Current |
 | Traveling Europe | Sabbatical | 3/2024 - 8/2024 | -- | -- |
 | TRAY (Tray.io) | VP of Engineering | 7/2022 - 3/2024 | [tray.md](tray.md) | -- |
-| Orderly Health | Software Engineer -> CTO | 1/2019 - 1/2022 | [orderlyhealth.md](orderlyhealth.md) | **Company sold** |
+| Orderly Health | First SW Engineer -> VP of Eng -> CTO | 1/2019 - 1/2022 | [orderlyhealth.md](orderlyhealth.md) | **Company sold** |
 | Twitter (via GNIP) | Sr. Dev -> Business Search Lead -> Notifications | 2014 - 2019 | [twitter.md](twitter.md) | **GNIP sold to Twitter** |
 | U of Denver, Daniels School of Business | Adjunct Business Professor | 2018 | [twitter.md](twitter.md) | Repeat invitations |
 | Extreme Software LLC | Founder / CEO | 2009 - 2013 | [extremesoftware.md](extremesoftware.md) | **Company sold** |
-| Carrier Access | Director of Architecture & Shanghai Liaison | 2005 - 2008 | [carrieraccess.md](carrieraccess.md) | -- |
-| Avaya Inc | Lead Architect and Developer | 2000 - 2005 | [avaya.md](avaya.md) | -- |
 
 **3 companies sold** -- GNIP (acquired by Twitter), Orderly Health (sold), Extreme Software LLC (sold)
 
@@ -32,9 +30,9 @@ This repository contains detailed work history documents that can be used to dyn
 
 ## Education
 
-- **BSE in Electrical Engineering** -- University of Michigan, Ann Arbor, MI
-- **BSE in Computer Engineering** -- University of Michigan, Ann Arbor, MI
-- **12-month intensive Chinese program** -- Beijing Normal University, Beijing, China
+- **BSE in Electrical Engineering** -- University of Michigan, Ann Arbor, MI (1999) -- GPA: 3.59/4.0
+- **BSE in Computer Engineering** -- University of Michigan, Ann Arbor, MI (1999) -- GPA: 3.59/4.0
+- **12-month intensive Chinese program** -- Beijing Normal University, Beijing, China (1998-1999)
 
 ## Detailed File Descriptions
 
@@ -45,19 +43,17 @@ B2B training marketplace SaaS platform. 4,026 commits, full-stack Angular/Node.j
 VP of Engineering at Tray.io. Led monolith-to-microservices migration and polyrepo-to-monorepo transition. Wrote the first 3 microservices and created the platform. Overhauled hiring (16% rejection rate -> much higher). Achieved 70% TDD coverage on all new microservices.
 
 ### [orderlyhealth.md](orderlyhealth.md)
-Software Engineer -> CTO. Joined at 0 lines of code, built core product in 6 months. Grew company 4x, scaled team from 3 to 20 in 3 months. Managed AI/ML team. Wore every hat (Product, Engineering, IT, Security, Technical Sales). **Company was sold.**
+First Software Engineer -> VP of Engineering -> CTO. Joined at 0 lines of code, built core product in 6 months. Built 3 websites + API used by TransUnion on GCP. Elasticsearch cluster. Grew company 4x, scaled team from 3 to 20 in 3 months. Managed AI/ML team. Wore every hat (Product, Engineering, IT, Security, Technical Sales). **Company was sold.**
 
 ### [twitter.md](twitter.md)
-Joined GNIP, helped catalyze growth until **GNIP was sold to Twitter**. Business Search Technical Lead then Notification Delivery (150K notifications/sec to 500M phones). Rewrote 6 microservices (Tweethunter, Ibis2, NDP, NDS, rux-email) reducing ops cost by 10x. Published 3 articles on Twitter Engineering blog. Also taught "Creating High Productivity SW Team Cultures" at University of Denver (2018).
+Joined GNIP (Twitter firehose, ~30 servers, Kafka, Cassandra, Hadoop/HBase, Ruby on Rails), helped catalyze growth until **GNIP was sold to Twitter**. Re-created business search in Scala with near-zero bug rate -- sent to SF to retrain core search team. Notification Delivery (150K notifications/sec to 500M phones). Rewrote 6 microservices reducing ops cost by 10x. Published 3 articles on Twitter Engineering blog. Also taught at University of Denver (2018).
 
 ### [extremesoftware.md](extremesoftware.md)
-Founded software consultancy, managed China-based dev teams for US clients (Broadridge Financial, Voicelog, NREL). Built NREL DataBus (time series on Cassandra, 100K+ events/sec). **Company sold to acquirer in 2013.**
+Founded software consultancy with Beijing office. Consulting clients: NREL (DataBus, 100K+ events/sec on Cassandra), GHX (AWS EC2/VPC, query 80sec->0.3sec), Broadridge (8TB Gemfire NoSQL migration), Voicelog (Seam/JBoss/Oracle, 1TB), Docutech (ASP.NET mortgage app). Also CTO of Teekit concurrently (2009-2010). Created Mocklib and Verifydesign (paid DevX articles). Contributed to MyFaces, Tomcat, Hibernate. **Company sold in 2013.**
 
-### [carrieraccess.md](carrieraccess.md)
-Director of Architecture at $50M telecom manufacturer. Directed US and Shanghai-based teams. Automated 80% of source code testing. Introduced Scrum and TDD. Improved forecasting.
-
-### [avaya.md](avaya.md)
-Lead Architect and Developer. Led development of what became Avaya's **2nd highest selling product in company history**. VoIP/SIP/RTP, J2EE, .NET.
+### Additional files (not in default summary, available for targeting):
+- [carrieraccess.md](carrieraccess.md) -- Director of Architecture, $50M telecom, Shanghai (2005-2008)
+- [avaya.md](avaya.md) -- Lead Architect, 2nd highest selling product at Avaya; includes Lucent Technologies (1999-2005)
 
 ### [skills.md](skills.md)
 Exhaustive inventory of every technology, tool, framework, and competency -- tagged by where used. Includes resume-targeting notes (e.g. "when targeting a CTO role, emphasize X"). Covers languages, frameworks, databases, cloud, AI/ML, architecture, networking, leadership, industry domains, published works.

@@ -1,6 +1,6 @@
 # Orderly Health
 
-## Role: Software Engineer -> CTO
+## Role: First Software Engineer -> VP of Engineering -> CTO
 ## Dates: 1/2019 - 1/2022
 ## Location: Remote
 
@@ -17,6 +17,8 @@ Orderly Health is a Denver-based healthcare company focused on improving the acc
 ### Built the Company's Core Product from Zero
 - Joined when there were **0 lines of code**
 - Created the company's core product in **6 months**
+- Built **3 websites and an API that TransUnion is using** in Google Cloud
+- Set up an **Elasticsearch cluster**
 - Designed a scalable architecture for multiple integrated products
 
 ### Scaled the Organization 4x
@@ -25,7 +27,7 @@ Orderly Health is a Denver-based healthcare company focused on improving the acc
 - Primed Orderly for organizational speed at scale (presentation: https://tinyurl.com/455snf8m)
 
 ### Wore Multiple Hats
-- **Product Manager** -- defined product direction and requirements
+- **Product Manager / Product Strategy** -- CEO moved Product Manager under Dean; defined product direction and requirements
 - **Software Manager** -- led and coached engineering team
 - **IT & Security** -- managed infrastructure and security posture
 - **Technical Sales** -- supported sales efforts with technical expertise
@@ -39,11 +41,13 @@ Orderly Health is a Denver-based healthcare company focused on improving the acc
 ---
 
 ## Technologies
+- Google Cloud Platform (serverless Cloud Run, monitoring/alerting)
+- Elasticsearch (search cluster)
 - Healthcare data platforms (provider directories)
 - AI / ML (data cleaning, correction algorithms)
+- Grafana (monitoring/observability)
 - Scalable multi-product architecture
 - Full-stack development
-- Cloud infrastructure
 
 ---
 

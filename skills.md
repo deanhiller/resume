@@ -11,9 +11,11 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Java | Expert | webpieces, playorm, databus, Twitter, Avaya, Carrier Access, Extreme Software, channelmanager2, NLP tools, Android |
 | TypeScript | Expert | TryTami (Angular + Node.js), webpieces-ts, Tray microservices |
 | JavaScript | Expert | TryTami, webpieces, databus visualization, web projects |
-| Scala | Proficient | Twitter (GNIP), distributed systems |
+| Scala | Proficient | Twitter/GNIP (re-created business search in Scala, ~30 server SOA system) |
+| Ruby / Ruby on Rails | Working knowledge | GNIP (learned in one week to work on non-realtime systems) |
 | Python | Proficient | Twitter (metrics monitoring), databus (NREL), playorm-server, timecardx |
-| C# | Proficient | Avaya (.NET/ASP.NET), listed in core technologies |
+| C / C++ | Proficient | Lucent Technologies (fault management, white box testing, test speed optimization) |
+| C# | Proficient | Avaya (.NET/ASP.NET), Extreme Software (Docutech mortgage app) |
 | SQL | Expert | PostgreSQL, MySQL across all roles |
 | PHP | Working knowledge | CodeIgniter CRUD projects |
 | HTML / CSS / SCSS | Expert | All web projects, TryTami, webpieces |
@@ -21,7 +23,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Groovy | Working knowledge | Gradle plugins |
 | XML / XSLT / XSD | Proficient | Avaya, enterprise Java era |
 | JSON | Expert | All modern projects |
-| Flash / ActionScript | Historical | Earlier web projects |
+| Flash / ActionScript | Historical | Extreme Software (buyyourtshirt.com / Teekit) |
 
 ---
 
@@ -40,7 +42,7 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | jQuery | Earlier web projects |
 | AJAX | Earlier web projects |
 | GWT (Google Web Toolkit) | Earlier Java web projects |
-| JSF / Facelets / Seam | Enterprise Java era |
+| JSF / Facelets / Seam | Extreme Software (Voicelog, Teekit), enterprise Java |
 | Struts | Enterprise Java era |
 | Swing | Avaya (desktop UI) |
 | MFC (Microsoft Foundation Classes) | Avaya |
@@ -64,7 +66,8 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Zod | TryTami (API input validation) |
 | playorm (custom NoSQL ORM) | Created -- S-SQL on Cassandra, 78 stars |
 | Tomcat | Avaya, enterprise Java projects |
-| JBoss | Avaya, enterprise Java projects |
+| JBoss | Avaya, Extreme Software (Voicelog with Seam/JBoss/Oracle) |
+| EJB3 | Enterprise Java era |
 | Servlets | Enterprise Java era |
 | JAXP / JAXB | Enterprise Java (XML processing) |
 | JNI (Java Native Interface) | Enterprise Java |
@@ -83,10 +86,17 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Skill | Where Used |
 |---|---|
 | PostgreSQL | TryTami, Orderly Health, general |
-| MySQL | Listed in core technologies, various projects |
+| MySQL | Various projects |
+| Oracle | Extreme Software (Voicelog -- 1TB dataset) |
+| Sybase | Earlier projects |
+| Gemfire | Extreme Software (Broadridge -- 8TB NoSQL migration, 3TB performance testing) |
 | Apache Cassandra | databus (NREL), playorm, GNIP, Twitter |
+| Manhattan (Twitter internal KV store) | Twitter |
+| Elasticsearch | Orderly Health (search cluster for healthcare data) |
 | Hadoop / HBase | GNIP (social data platform infrastructure) |
 | Kafka / Distributed Log queue | Twitter (notification delivery, microservices) |
+| Google Pub/Sub | TryTami |
+| AWS SNS/SQS | GNIP (pub/sub messaging) |
 | Google Cloud Firestore | TryTami (real-time chat) |
 | Firebase Realtime DB | TryTami (authentication, real-time messaging) |
 | Solr | databus (full-text search) |
@@ -98,9 +108,9 @@ This is the exhaustive list of all skills, technologies, and competencies across
 
 | Skill | Where Used |
 |---|---|
-| Google Cloud Platform (GCP) | TryTami -- Cloud Run, Cloud Tasks, Cloud Scheduler, Cloud Storage |
-| AWS | Listed in core technologies, various projects |
-| Terraform | TryTami (12 modules: Cloud Run, Postgres, Firestore, IAM, etc.) |
+| Google Cloud Platform (GCP) | TryTami (Cloud Run, Cloud Tasks, Cloud Scheduler, Cloud Storage), Orderly Health (serverless Cloud Run, monitoring/alerting) |
+| AWS (EC2, VPC, SNS/SQS) | GNIP, Extreme Software (GHX cloud prototype -- 75 web nodes, 50 data nodes) |
+| Terraform | TryTami (12 modules: Cloud Run, Postgres, Firestore, IAM, etc.), Tray |
 | Docker | TryTami (containerized deployments) |
 | Cloudflare Workers | TryTami (multi-subdomain proxy routing) |
 | Firebase | TryTami (auth, Firestore) |
@@ -188,7 +198,10 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Hot-recompiling dev server | webpieces (no restarts needed) |
 | No-HTTP testing | webpieces-ts (test APIs without HTTP overhead) |
 | Emma / NCover (code coverage) | Earlier projects |
-| Wireshark (network analysis) | Network debugging |
+| Selenium | Earlier web testing |
+| Hudson | CI/CD (predecessor to Jenkins) |
+| Cobertura | Code coverage (earlier projects) |
+| Wireshark / Ethereal (network analysis) | Network debugging |
 | Cygwin | Windows development environment |
 
 ---
@@ -228,10 +241,13 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | HTTP/1.1 (full implementation) | webpieces |
 | Modbus protocol | databus (NREL industrial data collection) |
 | WebSocket | webpieces, async-http-client |
-| VoIP | Avaya (telecommunications) |
-| SIP protocol | Avaya, javasip (SourceForge) |
-| RTP (Real-time Transport Protocol) | Avaya (voice/media) |
+| VoIP | Avaya, Lucent (telecommunications) |
+| SIP protocol | Avaya, Lucent, javasip (SourceForge) |
+| RTP (Real-time Transport Protocol) | Avaya, Lucent (voice/media) |
 | CSTA (Computer Supported Telecom Applications) | Avaya |
+| H323, RTCP, RTSP | Avaya/Lucent (telecom protocols) |
+| MapReduce | Hadoop ecosystem (GNIP) |
+| Thrift | Twitter (API protocol alongside JSON/XML) |
 | Media streaming | javamedia (SourceForge) |
 | SOAP / Web Services | Enterprise Java era |
 
@@ -241,9 +257,9 @@ This is the exhaustive list of all skills, technologies, and competencies across
 
 | Skill | Where Used |
 |---|---|
-| C# | Avaya |
+| C# | Avaya, Extreme Software (Alpine Access -- desktop agent + telecom, Docutech -- mortgage app) |
 | .NET Framework | Avaya |
-| ASP.NET | Avaya |
+| ASP.NET / ADO.NET | Avaya, Extreme Software (Docutech mortgage app) |
 | IIS | Avaya |
 | Visual Studio | Avaya |
 | NUnit | Avaya (testing) |
@@ -257,10 +273,11 @@ This is the exhaustive list of all skills, technologies, and competencies across
 
 | Skill | Where Used |
 |---|---|
-| CTO | TryTami, Orderly Health |
+| CTO | TryTami, Orderly Health, Teekit (concurrent with Extreme Software, 2009-2010) |
 | VP of Engineering | Tray |
 | Director of Architecture | Carrier Access |
-| Lead Architect | Avaya |
+| Lead Architect | Avaya (supervised 20-person team, billion-dollar manufacturer) |
+| Software Engineer | Lucent Technologies (C/C++, fault management, knowledge transfer to Shanghai) |
 | Founder / CEO | Extreme Software LLC (built and sold) |
 | Scaling teams (3 -> 20 in 3 months) | Orderly Health |
 | Hiring process design | Tray (raised rejection rate from 16%), Orderly Health |
@@ -288,10 +305,14 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | Integration / automation platforms | Tray.io |
 | Healthcare / provider data | Orderly Health |
 | Energy / renewable energy data | NREL DataBus |
-| Telecommunications | Avaya (2nd highest selling product), Carrier Access ($50M manufacturer) |
-| Financial services | Extreme Software (Broadridge Financial client) |
-| Voice logging / compliance | Extreme Software (Voicelog client) |
+| Telecommunications | Avaya (2nd highest selling product, PBX/call center), Lucent Technologies, Carrier Access ($50M wireless manufacturer) |
+| Healthcare / cloud | Extreme Software (GHX -- EC2/VPC prototype, 80sec->0.3sec query optimization) |
+| Financial services / big data | Extreme Software (Broadridge -- 8TB dataset, Gemfire NoSQL migration) |
+| Mortgage / lending | Extreme Software (Docutech -- ASP.NET mortgage application) |
+| Voice logging / compliance | Extreme Software (Voicelog -- Seam/JBoss/Oracle, 1TB dataset) |
 | Social data firehose / data ingestion | GNIP (consumed Twitter firehose, indexed for search) |
+| Tableau | Twitter (data analytics/visualization) |
+| Grafana | Orderly Health (monitoring/observability) |
 | Search infrastructure | Twitter (Business Search Lead) |
 | Chinese NLP | Stanford segmenter, Corbit, CoreNLP |
 | Mobile (Android, cross-platform) | compositeAndroid, codenameOneExamples |
@@ -313,6 +334,9 @@ This is the exhaustive list of all skills, technologies, and competencies across
 | javasip (SourceForge) | SIP protocol implementation |
 | javamedia (SourceForge) | Media streaming implementation |
 | Polyglot user services | Same service in Java, TypeScript, JavaScript, Python |
+| Mocklib | Created -- mocking library (paid DevX article) |
+| Verifydesign ant task | Created -- architecture verification tool (paid DevX article) |
+| Open source contributions | ant-contrib, MyFaces, Tomcat, Hibernate |
 
 ---
 
@@ -348,9 +372,9 @@ This is the exhaustive list of all skills, technologies, and competencies across
 
 ## Education
 
-- **BSE in Electrical Engineering** -- University of Michigan, Ann Arbor, MI
-- **BSE in Computer Engineering** -- University of Michigan, Ann Arbor, MI
-- **12-month intensive Chinese program** -- Beijing Normal University, Beijing, China
+- **BSE in Electrical Engineering** -- University of Michigan, Ann Arbor, MI (1999) -- GPA: 3.59/4.0
+- **BSE in Computer Engineering** -- University of Michigan, Ann Arbor, MI (1999) -- GPA: 3.59/4.0
+- **12-month intensive Chinese program** -- Beijing Normal University, Beijing, China (1998-1999)
 
 ---
 

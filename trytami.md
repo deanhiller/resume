@@ -36,6 +36,7 @@ TryTami is a B2B training marketplace SaaS platform that connects corporate cust
 - TypeScript
 - Prisma 7.3 ORM with PostgreSQL
 - Google Cloud Firestore (real-time chat)
+- Google Pub/Sub (messaging)
 - esbuild (bundling)
 
 ### AI / ML

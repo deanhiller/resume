@@ -32,6 +32,7 @@ Tray.io (now tray.com) is an integration and automation platform that enables bu
 
 ## Technologies
 - Microservices architecture
+- Terraform (infrastructure as code)
 - Monorepo tooling
 - Cloud-native platform
 - API integration infrastructure

@@ -20,14 +20,25 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 - Directly contributed to making the company attractive for acquisition by Twitter
 - **Worked on the Twitter firehose** -- consuming social data and indexing it for search
 - Worked with **Cassandra, Hadoop, and HBase** (social data platform infrastructure)
+- Worked on extensive SOA system -- **~30 servers** with Kafka queuing between layers (realtime section)
+- Quickly learned **Ruby on Rails** in one week to dive into systems outside realtime
 
 ### Business Search Technical Lead (Twitter)
 - Led business search engineering efforts at Twitter
-- Worked on search infrastructure serving Twitter's business-facing products
+- **Re-created the business search product in Scala** -- averaged close to **0 bugs per month**
+- Quality was so high, Twitter **sent Dean to San Francisco to re-train the core search team**
+- Got teams doing **test-first development + nightly build/deploy** automatically tested with **production dark read traffic**
+- Became the **go-to person for questions on process and quality**
+- Helped refactor/clean-up a large portion of Twitter's root nodes
+- Led a **large email data corruption fix project**
 
 ### Notification Delivery Team
 - Helped deliver **150,000 notifications per second to 500 million phones**
 - Infrastructure-scale distributed systems at Twitter's massive user base
+
+### Influence Without Authority (Experiment)
+- Deliberately took a role to test how much he could influence teams **without being the lead** -- was very successful
+- Convinced teams to slowly adopt his patterns; result: **support more code with fewer engineers**
 
 ### Microservice Rewrites
 - **Rewrote 6 microservices** at Twitter: Tweethunter, Ibis2, NDP, NDS, rux-email
@@ -58,20 +69,27 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 ---
 
 ## Technologies
-- Java, Scala, Python (metrics monitoring)
-- **Kafka / Distributed Log queue** (Twitter)
-- **Cassandra** (Twitter, GNIP)
+- Java, Scala, Python (metrics monitoring), Ruby on Rails
+- **Kafka / Distributed Log queue** (Twitter -- ~30 servers, realtime section)
+- **Cassandra, Manhattan** (Twitter, GNIP)
 - **Hadoop / HBase** (GNIP)
+- **AWS SNS/SQS** (GNIP)
+- **Tableau** (Twitter)
 - Distributed systems at massive scale (150K notifications/sec to 500M phones)
 - Search infrastructure
 - Real-time notification delivery pipelines
-- Microservices architecture
+- **Twitter internal cloud** (5 years on in-house infrastructure)
+- **Thrift** (API protocols -- Thrift, JSON, XML)
+- Microservices architecture (in-house monitoring/alerting)
 - Legacy stack migration
+- Production dark read traffic testing
 
 ---
 
 ## Impact
 - Key contributor to GNIP's growth leading to Twitter acquisition
+- Re-created business search in Scala with near-zero bug rate
+- Sent to SF to retrain core search team based on quality of work
 - 10x reduction in operational support costs through 6 microservice rewrites
 - Published thought leadership on Twitter's official engineering blog -- patterns adopted across many teams
 - 150K notifications/sec delivery to 500M phones
