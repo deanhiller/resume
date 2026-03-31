@@ -89,6 +89,7 @@ Joined GNIP as a Senior Software Developer and was a key part of the team that g
 - Microservices architecture (in-house monitoring/alerting)
 - Legacy stack migration
 - Production dark read traffic testing
+- **AI / Machine Learning** (4 years -- worked with AI/ML systems at Twitter)
 
 ---
 

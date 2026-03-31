@@ -129,13 +129,14 @@ This is the exhaustive list of all skills, technologies, and competencies across
 
 | Skill | Where Used |
 |---|---|
-| OpenAI / ChatGPT API | TryTami (streaming chat, tool calls) |
+| OpenAI / ChatGPT API | TryTami (AI-first product -- streaming chat, tool calls, entire duration) |
 | Anthropic Claude Agent SDK | TryTami (AI agents) |
 | AI-powered chat with tool calls | TryTami (displayContent, displayForm, todoList, queryEstimates, etc.) |
 | Prompt engineering & versioning | TryTami (dedicated prompt microservice with dev/demo/prod tagging) |
 | Vector search / auto-suggest | TryTami (skills matching) |
 | AI-powered code review | TryTami (Claude-based PR review) |
 | ML team management | Orderly Health (team of 3, healthcare data cleaning algorithms) |
+| AI/ML at Twitter | Twitter (4 years working with AI/ML systems) |
 | NLP / Chinese text processing | Stanford segmenter, CoreNLP, Corbit |
 | AI/ML for provider data accuracy | Orderly Health |
 

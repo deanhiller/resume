@@ -8,7 +8,7 @@
 
 ## Company Overview
 
-TryTami is a B2B training marketplace SaaS platform that connects corporate customers with training companies and individual trainers. The platform enables customers to discover courses, request proposals, book training sessions, and manage billing -- all facilitated by an AI-powered chat assistant.
+TryTami is an **AI-first** B2B training marketplace SaaS platform that connects corporate customers with training companies and individual trainers. **AI is core to the entire product** -- the platform is driven by an AI-powered chat assistant using OpenAI and Anthropic Claude for course discovery, proposal generation, trainer matching, and booking. AI has been central to the product for the entire duration of development.
 
 ---
 
